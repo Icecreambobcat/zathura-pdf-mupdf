@@ -30,6 +30,7 @@ ZATHURA_PLUGIN_REGISTER_WITH_FUNCTIONS("pdf-mupdf", VERSION,
                                        }),
                                        ZATHURA_PLUGIN_MIMETYPES({
                                            PDF_MIMETYPE "application/oxps",
+                                           "application/vnd.ms-xpsdocument",
                                            "application/epub+zip",
                                            "application/x-fictionbook",
                                            "application/x-mobipocket-ebook",
